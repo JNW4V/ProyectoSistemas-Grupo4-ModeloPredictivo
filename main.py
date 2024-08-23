@@ -4,7 +4,7 @@ import re
 from tkinter import messagebox
 from PIL import Image, ImageTk
 import pyodbc
-import modelo
+import graficaBitcoin
 import graficaEtherium
 import graficaDogeCoin
 import requestBitcoin

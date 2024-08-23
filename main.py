@@ -251,7 +251,7 @@ class PantallaRecomendacion:
     def mostrarGrafica(self, moneda):
         
         if(moneda == "BitCoin"):
-            modelo.mostrar_grafico_btc()
+            graficaBitcoin.mostrar_grafico_btc()
         elif(moneda == "Etherium"):
             graficaEtherium.mostrar_grafico_etherium()
         elif(moneda == "Dogecoin"):
